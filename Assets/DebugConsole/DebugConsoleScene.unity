@@ -1321,7 +1321,7 @@ GameObject:
   - component: {fileID: 1093008446}
   - component: {fileID: 1093008445}
   m_Layer: 5
-  m_Name: BtnSend
+  m_Name: BtnTrans
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1386,7 +1386,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1868128945}
-        m_MethodName: SendPush
+        m_MethodName: TransmitPush
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2760,7 +2760,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: UDP Send
+  m_Text: Transmit
 --- !u!222 &1841924452
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2912,7 +2912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IPAddressField: {fileID: 1727663060}
   IntervalField: {fileID: 295718139}
-  SendFileSelect: {fileID: 1268454995}
+  TransFileSelect: {fileID: 1268454995}
 --- !u!4 &1868128946
 Transform:
   m_ObjectHideFlags: 0
